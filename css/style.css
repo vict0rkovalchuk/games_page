@@ -1,0 +1,153 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header .navbar-brand {
+  font-weight: bold;
+}
+
+.introduction .introduction_info {
+  margin-top: 150px;
+}
+
+.introduction .introduction_info h1 {
+  font-size: 59px;
+}
+
+.introduction .row .mobile {
+  display: none;
+}
+
+.introduction .btn,
+.footer .form form button {
+  background-color: coral;
+  color: white;
+}
+
+.introduction .container {
+  display: flex;
+}
+
+.introduction .introduction_info h1 {
+  font-size: 42px;
+}
+
+.sections {
+  background-color: #343a40;
+  padding: 30px 0;
+}
+
+.sections .row h3 {
+  text-align: center;
+  font-weight: 400;
+  color: white;
+}
+
+.sections .row h3 + p {
+  text-align: center;
+  color: white;
+}
+
+.sections .sections_list,
+.games .games_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sections .sections_list .section,
+.games .games_list .game {
+  padding: 0 10px 30px 10px;
+}
+
+.sections .sections_list .section h5,
+.sections .sections_list .section p {
+  text-align: center;
+  color: white;
+}
+
+.sections .row h3 + p,
+.games .row h3 + p {
+  padding-bottom: 15px;
+}
+
+.sections .sections_list .section p,
+.games .row h3 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.games .row h3 + p,
+.games .games_list .game h5,
+.games .games_list .game p {
+  text-align: center;
+}
+
+.sections .sections_list .section h5,
+.games .games_list .game h5 {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.sections .sections_list .section img,
+.games .games_list .game img {
+  box-shadow: 0 0 5px grey;
+  width: 100%;
+}
+
+.games {
+  padding: 30px 0;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 6px;
+  background-color: #343a40;
+  color: white;
+}
+
+.footer .form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .form form button {
+  margin-top: 5px;
+}
+
+.footer .row .copy {
+  margin-top: 45px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .introduction .introduction_info h1 {
+    font-size: 42px;
+  }
+
+  .introduction .row img {
+    margin-top: 60px;
+  }
+
+  .introduction .introduction_info {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .introduction {
+    padding-bottom: 40px;
+  }
+
+  .introduction .introduction_info {
+    margin-top: 0;
+  }
+
+  .introduction .row .desktop {
+    display: none;
+  }
+
+  .introduction .row .mobile {
+    display: block;
+  }
+}
